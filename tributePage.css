@@ -1,0 +1,66 @@
+*{
+    background-color: blanchedalmond;
+    background-image: url(./img2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+
+    padding: 0px;
+    margin: 10px;
+    font-family: cursive;
+}
+
+h1{
+    text-align: center;
+    color: crimson;
+    font-size: 60px;
+    font-weight: 700;
+
+    text-shadow: 15px -10px 20px black;
+    text-decoration: underline;
+}
+
+.img{
+    text-align: center;
+}
+
+#abt{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 500;
+    text-decoration: underline;
+    color:black;
+
+    text-shadow: 10px -10px 10px black;
+   
+}
+
+.paragraph{
+    text-align: justify;
+
+    border: solid 2px rgb(131, 101, 26);
+    height: 400px; /* height sud be in pixels bcz (overflow:scroll) properties.*/
+    width: 50%;
+    border-radius: 20px;
+    
+
+    margin-left: 370px;
+    overflow: auto; /* auto-> scroll in y-axis not x-axis*/
+    box-shadow: 2px;
+    padding: 10px 0px;
+
+    background-color: red;
+    
+    
+}
+strong{
+    color: blueviolet;
+    text-transform: uppercase;
+}
+
+b{
+    color: crimson;
+    text-transform: capitalize;
+    font-size: 18px;
+}
